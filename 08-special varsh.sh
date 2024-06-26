@@ -10,3 +10,5 @@ echo "script name :$0"
 echo "current workingn directory :$PWD"
 
 echo "Home directory of current user: $HOME"
+
+echo "which user is running this script : $USER"
