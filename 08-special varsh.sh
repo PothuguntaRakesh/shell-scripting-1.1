@@ -3,6 +3,8 @@
 
 echo "all variables:$@"
 
-echo "number of variables passed :$ #"
+echo "number of variables passed : $# "
 
-echo "script name :$"
+echo "script name :$0"
+
+echo "current workingn directory :$PWD"
