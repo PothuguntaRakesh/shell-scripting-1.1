@@ -1,3 +1,17 @@
 #!/bin/bash
 
-dnf install mysql -y
+USERID=$(idn-u)
+
+if [$n USERID -ne 0]
+
+then 
+    echo "please run this script with root access."
+
+    else
+        echo "you are super user."
+    
+    if 
+
+      dnf install mysql -y
+
+
